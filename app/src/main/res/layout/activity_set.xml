@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rel"
+    >
+
+    <!-- Contact Information -->
+    <TextView
+        android:id="@+id/text_contact_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:text="संपर्क माहिती"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_contact_info"
+        android:layout_marginTop="8dp"
+        android:text="फोन : +91 123 456 7890"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_phone"
+        android:layout_marginTop="8dp"
+        android:text="ईमेल : pruthvirajpatil1434@gmail.com"
+        android:textSize="16sp" />
+
+    <!-- Contact Form -->
+    <EditText
+        android:id="@+id/nm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_email"
+        android:layout_marginTop="16dp"
+        android:hint="आपले नाव"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/mb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nm"
+        android:layout_marginTop="8dp"
+        android:hint="आपला मोबईल नंबर"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/msg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mb"
+        android:layout_marginTop="8dp"
+        android:hint="आपला संदेश"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+    <Button
+        android:id="@+id/snd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/msg"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="16dp"
+        android:text="संदेश पाठवा"
+        android:clickable="true"
+        android:background="@color/green"
+        android:textColor="@android:color/white" />
+
+    <ImageView
+        android:id="@+id/imgv"
+        android:layout_width="85dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="30dp"
+        android:visibility="visible"
+        tools:srcCompat="@tools:sample/avatars" />
+</RelativeLayout>

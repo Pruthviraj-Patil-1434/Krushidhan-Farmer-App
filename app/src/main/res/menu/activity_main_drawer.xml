@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_water_drop_24"
+            android:title="@string/menu_ct" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/money"
+            android:title="शासकीय योजना" />
+
+        <item
+            android:id="@+id/rb"
+            android:icon="@drawable/baseline_grass_24"
+            android:title="उन्हाळी पीके" />
+    </group>
+</menu>

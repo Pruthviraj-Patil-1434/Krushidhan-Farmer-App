@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.krushikadam.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+           <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.krushikadam.ui.gallery.GalleryFragment"
+        android:label="@string/menu_ct"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.krushikadam.ui.slideshow.SlideshowFragment"
+        android:label="शासकीय योजना"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/rb"
+        android:name="com.example.krushikadam.rb"
+        android:label="उन्हाळी पिके"
+        tools:layout="@layout/fragment_rb" />
+</navigation>

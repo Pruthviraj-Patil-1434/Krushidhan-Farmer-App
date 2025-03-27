@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".gov"
+        android:background="@drawable/bck3">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="286dp"
+            android:layout_height="180dp"
+            android:layout_below="@id/ttl"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="30dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+           >
+
+            <ImageView
+                android:id="@+id/igm"
+                android:layout_width="286dp"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:background="@drawable/corner"
+                android:cropToPadding="true"
+                android:elevation="8dp"
+                android:foregroundGravity="center_horizontal"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nmo" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TextView" />
+
+            <TextView
+                android:id="@+id/ttl"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="32dp"
+                android:text="कृषी पंप जोडणी करीता योजना (उच्चदाब वितरण प्रणाली व कृषी धोरण २०२०) योजना"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TableLayout
+            android:layout_width="405dp"
+            android:layout_height="471dp"
+            android:layout_below="@+id/igm"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="340dp"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:fontFamily="sans-serif-condensed-medium"
+                    android:text="तपशील :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="आवश्यक कागदपत्रे"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:background="@drawable/border"
+                android:baselineAligned="false">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="स्पष्टीकरणः"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/spd"
+                    android:layout_width="235dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="१) प्राप्त अर्ज\n२) ७/१२ उतारा\n३) आधार कार्ड\n४) मागासवर्गिय जाती / मागासवर्गिय ज मातीचे\nप्रमाणपत्र"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="तपशील :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:id="@+id/tpd1"
+                    android:layout_width="301dp"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="संबंधित शासन संदर्भ, शासन निर्णय, इतर आ देश\n,परिपत्रक इ. (कोणत्या अधिनियमाचे / नियमाचे सदर\n कामकाज पूर्ण केले जाणार आ हे)"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="तपशील :"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="निर्णय प्रक्रियेत तपासणी करणेत येत अस लेल्या बाबी"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="स्पष्टीकरणः"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="१) अर्जदाराने सादर केलेल्या अर्जाची पडताळणी करणे.\n२) अर्जदाराने जोडलेल्या सातबारा उताऱ्याची पडताळणी\n करणे\n३) अर्जदाराने जोडलेल्या आधार कार्ड ची पडताळणी\nकरणे.\n४) अर्जदाराची शेती सामाईक / स्वतःच्या मालकीची\nअसल्याबददल शहानिशा करणे."
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="शुल्क भरण्याची पद्धत"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="ऑनलाइन"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:id="@+id/mb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="संपर्क दुरध्वनी क्रमांक"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="07152-243039"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="अधिकृत ई-मेल"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="krushiyojna1@gmail.com"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="32dp"
+                    android:text="निर्णय प्रक्रिया कालावधी-"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="अंदाजे एक आठवडा"
+                    android:textColor="@color/black" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="319dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_column="0"
+                    android:layout_x="20dp"
+                    android:layout_y="22dp"
+                    android:text="फॉर्म लिंक :"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/lk"
+                    android:layout_width="85dp"
+                    android:layout_height="48dp"
+                    android:background="@color/green"
+                    android:gravity="center|start"
+                    android:text="इथे क्लिक करा"
+                    />
+            </TableRow>
+        </TableLayout>
+
+    </RelativeLayout>
+</ScrollView>

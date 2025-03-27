@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/ttl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="गहू"
+            android:textColor="#151515"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="36dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="350dp"
+            android:layout_height="180dp"
+            android:layout_below="@id/ttl"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="20dp"
+            app:cardElevation="20dp"
+            android:background="@drawable/back">
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:id="@+id/sld"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:auto_cycle="true"
+                app:corner_radius="20"
+                app:delay='0'
+                app:period="3000" />
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/jmn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="जमीन"
+            android:textColor="#121212"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/cardView"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/ijm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="गहू पिकासाठी चांगल्या निच-याची भारी आणि खोल जमिनीची निवड करा. हलक्या व मध्यम जमिनीत भरपूर भरखते घालणे आवश्यक आहे. जिरायत गहू ओलावा टिकवून धरणा-या भारी जमिनीतच घ्यावा. पेरणीची वेळ – जिरायत गव्हाची पेरणी ऑक्टोबरच्या दुस-या पंधरवड्यात करावी. बागायती गव्हाची पेरणी नोव्हेंबरच्या पहिल्या पंधरवड्यात पूर्ण करावी. त्यासाठी जमिनीची पूर्वमशागत करून जमीन तयार ठेवावी."
+            android:textColor="#000000"
+            android:layout_below="@id/jmn"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/prn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="पेरणी"
+            android:textColor="#020202"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/ijm"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/iprn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="पेरणी दोन ओळीतील अंतर २२.५ ते २३.० सें.मी. ठेवून करावी. बी ५ ते ६ से.मी. पेक्षा जास्त खोल पेरू नका. उभी आडवी पेरणी करू नये. एकेरी पेरणीमुळे आंतरमशागत करणे सुलभ होते. पेरणी शक्यतो दोन चाडी पाभरीने करावी. म्हणजे पेरणीबरोबरचा रासायनिक खताचा पहिला हप्ता देता येईल. जमिनीच्या उतारानुसार २.५ ते ३.० मीटर रूंदीचे सारे पाडावेत व आडव्या दिशेने पाट पाडावेत."
+            android:textColor="#000000"
+            android:layout_below="@id/prn"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/kht"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="खते"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/iprn"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/ikht"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="अ) हेक्टरी २५ ते ३० गाड्या शेणखत कुळवाच्या पाळीने मिसळावे.\nब) बागायती गव्हास वेळेवर पेरणीसाठी हेक्टरी १२० किलो नत्र, ६० किलो स्फुरद व ४० किलो पालाश द्यावे. निम्मे नत्र व संपुर्ण स्फुरद व पालाश पेरणीचेवेळी पेरून द्यावे. उरलेले निम्मे नत्र पेरणीनंतर तीन आठवड्यांनी खुरपणी झाल्यावर द्यावे.\nक) उशीरा पेरणीसाठी हेक्टरी ८० किलो स्फुरद आणि ४० किलो पालाश ही खते वरीलप्रमाणेच दोन हप्त्यात द्यावीत.\nड) जिरायत गव्हास पेरणीच्या वेळी हेक्टरी ४० किलो नत्र आणि २० किलो स्फुरद आणि २० किलो पालाश द्यावे.\nइ) पेरणीपूर्वी बियाण्यावर अँझोटोबँक्टर आणि सफुरद विरघळविणा-या जीवाणुंची २५० ग्रँम प्रती १० किलो याप्रमाणे बियाण्यावर बिजप्रक्रीया करावी."
+            android:textColor="#000000"
+            android:layout_below="@id/kht"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/pni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="पाणी व्यवस्थापन"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@id/ikht"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/ipn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="बागायत वेळेवर आणि बागायत उशिरा पेरणी केलेल्या गहू पिकासाठी जमिनीच्या मगदुरानुसार पाण्याच्या पाळ्या कमी-जास्त असू शकतात. पाण्याचा साठा एकच पाणी देण्याइतका उपलब्ध असेल, तर पेरणीनंतर 40 ते 42 दिवसांनी पाणी द्यावे. पाण्याचा साठा दोन वेळेस पाणी देण्याइतका उपलब्ध असेल, तर पहिले पाणी पेरणीनंतर 20 ते 22 दिवसांनी आणि दुसरे पाणी 60 ते 65 दिवसांनी द्यावे. पाण्याचा साठा तीन पाणी देण्याइतका उपलब्ध असेल, तर पहिले पाणी पेरणीनंतर 20 दिवसांनी, दुसरे पाणी 40 ते 45 दिवसांनी आणि तिसरे पाणी 65 ते 70 दिवसांनी द्यावे."
+            android:textColor="#000000"
+            android:layout_below="@id/pni"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/kid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="29dp"
+            android:layout_y="1247dp"
+            android:text="गव्हावरील किड"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/ipn"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/ikid"
+            android:layout_width="352dp"
+            android:layout_height="wrap_content"
+            android:layout_x="30dp"
+            android:layout_y="1295dp"
+            android:text="खोडकिडाः Sesamia Inferens Walker (Noctuidae : Lepidoptera) या किडीचे पतंग तपकिरी रंगाचे व गवती रंगाचे असतात. पुर्ण वाढ झालेली अळी सुमारे २-३ से.मि असुन तिचा रंग गुलाबी असते. ती अंगाने मु आणि डोके काळे असते. या किडीच्या प्रादुर्भावाने वाढणारा मधला भाग सुकुन जातो. ती  खोडात शिरुन खालील भागावर उपजिवीका करते. त्यामुळे रोपे सुकुन जातात. व त्यांना ओंब्या येत नाही.\n\nतुडतुडे हे किटक आकारने लहान व पाचरीच्या आकाराचे असतात. त्यांचा रंग हिरवट राखडी असतो.तुडतुडे व त्यांची पिल्ले पानातुन रस शोषण करतात. त्यामुळे पाने पिवळी पडुन ती वाळु लागतात. व पिकांची वाढ खुंटते. या किडीचे नियंत्रणासाठी प्रादुर्भाव दिसुन आल्यावर डायमेखोएट ३० टक्के प्रवाही ३०० मिली. किंवा मिथाईल डिमेटाईल २५ टक्के प्रवाही ४०० मिलि किंवा पेन्थीऑन ५० टक्के २०० मिलि. किंवा कार्बारील ५० टक्के पाण्यात मिसळणारी भुकटी १ किंलो प्रति हेक्टरी ५०० लिटर पाण्यात मिसळुन फवारणी करावी किंवा कार्बारील १० टक्के भुकटी हेक्टरी २० किलो या प्रमाणात घरळावी. आवश्यकतेनुसार दुसरी फवारणी /धुरळणी १५ दिवसानी वरीलप्रमाणे करावी. "
+            android:textColor="#000000"
+            android:layout_below="@id/kid"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="31dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
