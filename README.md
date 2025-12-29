@@ -45,13 +45,13 @@ Ensure a user-friendly interface accessible to farmers of all technical backgrou
 Screenshots include:
 
 ### Home Dashboard
-![Home Dashboard](screenshots/home_dashboard.png)
+![Home Dashboard](assets/home.jpg)
 
 ### Crop Categories
-![Crop Categories](screenshots/crop_categories.png)
+![Crop Categories](assets/crops.png)
 
 ### Water Management Module
-![Water Management Module](screenshots/water_management.png)
+![Water Management Module](assets/water.png)
 
 ### Contact & Feedback Screen
-![Contact & Feedback Screen](screenshots/contact_feedback.png)
+![Contact & Feedback Screen](assets/Contact.jpg)
